@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "script-injector-client-side-solution",
+    "id": "91eab1dd-6c28-4c3f-a525-254bab4bb1a5",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "script-injector description"
+      },
+      "longDescription": {
+        "default": "script-injector description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "script-injector Feature",
+        "description": "The feature that activates elements of the script-injector solution.",
+        "id": "9ef60334-51dc-49e9-8593-c5eefaa798ec",
+        "version": "1.0.0.3"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/script-injector.sppkg"
+  }
+}

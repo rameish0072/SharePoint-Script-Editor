@@ -1,0 +1,23 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.scriptinjector {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.editMode {
+  padding: 10px 14px;
+  background: #deecf9;
+  border: 1px solid #2b88d8;
+  border-left: 4px solid #2b88d8;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #004578;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 2;
+}
